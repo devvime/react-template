@@ -1,4 +1,5 @@
 import React from "react";
+import './login.scss';
 
 export default class Login extends React.Component {
 
@@ -8,7 +9,9 @@ export default class Login extends React.Component {
 
   render() {
     return (
-      <h1>It Works!</h1>
+      <section>
+        <h1>It Works!</h1>
+      </section>
     )
   }
 
